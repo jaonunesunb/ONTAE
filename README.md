@@ -43,18 +43,3 @@
 - [ ] Version IRI and metadata have been updated, if applicable.
 
 Following these guidelines helps keep the ONTAE ontology consistent, multilingual, and ready for integration with ontology-driven visualization systems.
-
----
-
-## How to Add Images to this README
-
-1. Place your screenshots inside the repository, for example:
-
-   - `docs/images/protege-file-preferences.png`
-   - `docs/images/protege-annotation-renderer-languages.png`
-   - `docs/images/protege-renderer-settings.png`
-
-2. Reference them in the README using Markdown:
-
-   ```md
-   ![Short description](docs/images/protege-file-preferences.png)
