@@ -11,14 +11,18 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/ontologias/ONTAE">
-        <owl:versionIRI rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/versao/1.0.0/"/>
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/versao/1.0.0"/>
         <dc:creator>João Pedro Sousa Nunes</dc:creator>
         <dc:description xml:lang="pt-br">A Ontologia de Eventos Acadêmicos (ONTAE) foi desenvolvida para modelar e representar de forma semântica as atividades acadêmicas que ocorrem no âmbito universitário, tanto em níveis de graduação quanto de pós-graduação. Esta ontologia abrange diferentes tipos de eventos acadêmicos, como palestras, congressos, simpósios, workshops e comunicações orais, além de cursos de longa duração, minicursos e oficinas.
 Esta ontologia é projetada para ser extensível e adaptável a diferentes contextos acadêmicos, facilitando a gestão, a busca e a análise de dados relacionados a eventos acadêmicos em sistemas de informação.</dc:description>
-        <dc:title xml:lang="pt-br">Ontologia de Eventos Acadêmicos</dc:title>
+        <dc:description xml:lang="en">The Academic Events Ontology (ONTAE) was developed to semantically model and represent academic activities that take place within universities at both undergraduate and graduate levels. This ontology covers different types of academic events, such as lectures, conferences, symposia, workshops, and oral communications, in addition to long-term courses, short courses, and hands-on sessions.
+It is designed to be extensible and adaptable to different academic contexts, supporting the management, discovery, and analysis of data about academic events in information systems.</dc:description>
+        <dc:title xml:lang="en">Academic Events Ontology</dc:title>
+        <dc:title xml:lang="pt">Ontologia de Eventos Acadêmicos</dc:title>
         <terms:contributor>Fernanda Farinelli</terms:contributor>
+        <oboInOwl:creation_date></oboInOwl:creation_date>
         <rdfs:comment xml:lang="pt-br">O escopo da Ontologia de Eventos Acadêmicos (em inglês Ontology of Academic Events - ONTAE) possui termos referentes à eventos e atividades acadêmicas como congressos, palestras, workshop, e outros, além de importar elementos de outras ontologias como pessoa, papel (referente ao papel que uma pessoa pode exercer), professor, aluno, programa, universidade e outros, além da ontologia de alto nível Basic Formal Ontology (BFO) versão 2 em Português.</rdfs:comment>
-        <rdfs:comment xml:lang="pt">ONTAE tem como objetivo fornecer uma estrutura formal para descrever as características essenciais desses eventos, incluindo informações como título, descrição, data, hora, local, organizadores, público-alvo, carga horária, e detalhes específicos relacionados a cada tipo de evento. A ontologia importa conceitos de outras ontologias de referência, como a Basic Formal Ontology (BFO) e a Relation Ontology (RO), para garantir a compatibilidade e o reuso de conceitos amplamente aceitos na comunidade científica.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The scope of the Academic Events Ontology (ONTAE) includes terms related to academic events and activities such as conferences, lectures, workshops, and others. It also imports elements from other ontologies, including concepts for person, role (the role a person can play), professor, student, program, university, and more, in addition to the upper ontology Basic Formal Ontology (BFO) version 2 in Portuguese.</rdfs:comment>
         <owl:versionInfo>1.0.0</owl:versionInfo>
     </owl:Ontology>
     
@@ -38,11 +42,13 @@ Esta ontologia é projetada para ser extensível e adaptável a diferentes conte
     <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+        <obo:ONTONEO_10000002 xml:lang="pt-br">Fernanda Farinelli</obo:ONTONEO_10000002>
         <rdfs:label>editor preferred label</rdfs:label>
         <rdfs:label xml:lang="en">editor preferred label</rdfs:label>
         <rdfs:label>editor preferred term</rdfs:label>
         <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
         <rdfs:label>editor preferred term~editor preferred label</rdfs:label>
+        <rdfs:label xml:lang="pt-br">rótulo preferido do editor</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -50,7 +56,9 @@ Esta ontologia é projetada para ser extensível e adaptável a diferentes conte
     <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
+        <obo:ONTONEO_10000002 xml:lang="pt-br">Fernanda Farinelli</obo:ONTONEO_10000002>
         <rdfs:label xml:lang="en">example of usage</rdfs:label>
+        <rdfs:label xml:lang="pt-br">exemplo de uso</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -68,9 +76,11 @@ Esta ontologia é projetada para ser extensível e adaptável a diferentes conte
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <obo:ONTONEO_10000002 xml:lang="pt-br">Fernanda Farinelli</obo:ONTONEO_10000002>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
         <rdfs:label>definition</rdfs:label>
         <rdfs:label xml:lang="en">definition</rdfs:label>
+        <rdfs:label xml:lang="pt-br">definição</rdfs:label>
         <rdfs:label>textual definition</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -79,7 +89,9 @@ Esta ontologia é projetada para ser extensível e adaptável a diferentes conte
     <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+        <obo:ONTONEO_10000002 xml:lang="pt-br">Fernanda Farinelli</obo:ONTONEO_10000002>
         <rdfs:label xml:lang="en">editor note</rdfs:label>
+        <rdfs:label xml:lang="pt-br">nota do editor</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -87,6 +99,8 @@ Esta ontologia é projetada para ser extensível e adaptável a diferentes conte
     <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+        <obo:ONTONEO_10000002 xml:lang="pt-br">Fernanda Farinelli</obo:ONTONEO_10000002>
+        <rdfs:label xml:lang="pt-br">editor do termo</rdfs:label>
         <rdfs:label xml:lang="en">term editor</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -95,9 +109,11 @@ Esta ontologia é projetada para ser extensível e adaptável a diferentes conte
     <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+        <obo:ONTONEO_10000002 xml:lang="pt-br">Fernanda Farinelli</obo:ONTONEO_10000002>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
         <rdfs:label xml:lang="en">alternative label</rdfs:label>
         <rdfs:label xml:lang="en">alternative term</rdfs:label>
+        <rdfs:label xml:lang="pt-br">termo alternativo</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -105,8 +121,10 @@ Esta ontologia é projetada para ser extensível e adaptável a diferentes conte
     <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+        <obo:ONTONEO_10000002 xml:lang="pt-br">Fernanda Farinelli</obo:ONTONEO_10000002>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
         <rdfs:label xml:lang="en">definition source</rdfs:label>
+        <rdfs:label xml:lang="pt-br">fonte da definição</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -114,6 +132,8 @@ Esta ontologia é projetada para ser extensível e adaptável a diferentes conte
     <!-- http://purl.obolibrary.org/obo/IAO_0000232 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232">
+        <obo:ONTONEO_10000002 xml:lang="pt-br">Fernanda Farinelli</obo:ONTONEO_10000002>
+        <rdfs:label xml:lang="pt-br"></rdfs:label>
         <rdfs:label xml:lang="en">curator note</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -122,6 +142,8 @@ Esta ontologia é projetada para ser extensível e adaptável a diferentes conte
     <!-- http://purl.obolibrary.org/obo/IAO_0000233 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233">
+        <obo:ONTONEO_10000002 xml:lang="pt-br">Fernanda Farinelli</obo:ONTONEO_10000002>
+        <rdfs:label xml:lang="pt-br">item rastreador de prazo</rdfs:label>
         <rdfs:label xml:lang="en">term tracker item</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -130,6 +152,8 @@ Esta ontologia é projetada para ser extensível e adaptável a diferentes conte
     <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <obo:ONTONEO_10000002 xml:lang="pt-br">Fernanda Farinelli</obo:ONTONEO_10000002>
+        <rdfs:label xml:lang="pt-br">importado de</rdfs:label>
         <rdfs:label xml:lang="en">imported from</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -138,7 +162,9 @@ Esta ontologia é projetada para ser extensível e adaptável a diferentes conte
     <!-- http://purl.obolibrary.org/obo/IAO_0000600 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000600">
+        <obo:ONTONEO_10000002 xml:lang="pt-br">Fernanda Farinelli</obo:ONTONEO_10000002>
         <rdfs:label xml:lang="en">elucidation</rdfs:label>
+        <rdfs:label xml:lang="pt-br">elucidação</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -146,7 +172,9 @@ Esta ontologia é projetada para ser extensível e adaptável a diferentes conte
     <!-- http://purl.obolibrary.org/obo/IAO_0010000 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0010000">
+        <obo:ONTONEO_10000002 xml:lang="pt-br">Fernanda Farinelli</obo:ONTONEO_10000002>
         <rdfs:label xml:lang="en">has axiom label</rdfs:label>
+        <rdfs:label xml:lang="pt-br">tem rótulo de axioma</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -160,6 +188,7 @@ Esta ontologia é projetada para ser extensível e adaptável a diferentes conte
         <obo:IAO_0000115 xml:lang="en">A person how is responsible for translating the entity annotations from English to another language.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">PERSON:Fernanda Farinelli</obo:IAO_0000117>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/ontoneo.owl</obo:IAO_0000412>
+        <obo:ONTONEO_10000002>PERSON:Fernanda Farinelli</obo:ONTONEO_10000002>
         <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/ontoneo/ontoneo.owl</rdfs:isDefinedBy>
         <rdfs:label xml:lang="pt">traduzido por</rdfs:label>
         <rdfs:label xml:lang="en">translated by</rdfs:label>
@@ -191,7 +220,9 @@ Esta ontologia é projetada para ser extensível e adaptável a diferentes conte
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001900">
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:ONTONEO_10000002>Fernanda Farinelli</obo:ONTONEO_10000002>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/ro/core.owl"/>
+        <rdfs:label xml:lang="pt">interpretação temporal</rdfs:label>
         <rdfs:label xml:lang="en">temporal interpretation</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -202,6 +233,8 @@ Esta ontologia é projetada para ser extensível e adaptável a diferentes conte
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002416">
         <obo:IAO_0000115>An assertion that involves at least one OWL object that is intended to be expanded into one or more logical axioms. The logical expansion can yield axioms expressed using any formal logical system, including, but not limited to OWL2-DL.</obo:IAO_0000115>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:ONTONEO_10000002 xml:lang="pt-br">Fernanda Farinelli</obo:ONTONEO_10000002>
+        <rdfs:label xml:lang="pt-br"></rdfs:label>
         <rdfs:label xml:lang="en">logical macro assertion</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/ro/docs/shortcut-relations/</rdfs:seeAlso>
     </owl:AnnotationProperty>
@@ -213,6 +246,8 @@ Esta ontologia é projetada para ser extensível e adaptável a diferentes conte
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002421">
         <obo:IAO_0000115>A logical macro assertion whose domain is an IRI for a property</obo:IAO_0000115>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:ONTONEO_10000002 xml:lang="pt-br">Fernanda Farinelli</obo:ONTONEO_10000002>
+        <rdfs:label xml:lang="pt-br"></rdfs:label>
         <rdfs:label xml:lang="en">logical macro assertion on a property</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002416"/>
     </owl:AnnotationProperty>
@@ -224,6 +259,8 @@ Esta ontologia é projetada para ser extensível e adaptável a diferentes conte
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002422">
         <obo:IAO_0000115>Used to annotate object properties to describe a logical meta-property or characteristic of the object property.</obo:IAO_0000115>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:ONTONEO_10000002 xml:lang="pt-br">Fernanda Farinelli</obo:ONTONEO_10000002>
+        <rdfs:label xml:lang="pt-br"></rdfs:label>
         <rdfs:label xml:lang="en">logical macro assertion on an object property</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002421"/>
     </owl:AnnotationProperty>
@@ -234,6 +271,8 @@ Esta ontologia é projetada para ser extensível e adaptável a diferentes conte
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002423">
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:ONTONEO_10000002 xml:lang="pt-br">Fernanda Farinelli</obo:ONTONEO_10000002>
+        <rdfs:label xml:lang="pt-br"></rdfs:label>
         <rdfs:label xml:lang="en">logical macro assertion on an annotation property</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002421"/>
     </owl:AnnotationProperty>
@@ -253,8 +292,8 @@ Where we have an annotation assertion
         <obo:ONTONEO_10000002 xml:lang="pt-br">Fernanda Farinelli</obo:ONTONEO_10000002>
         <obo:RO_0002423>If we have the annotation P is-direct-form-of Q, and we have inverses P&apos; and Q&apos;, then it follows that P&apos; is-direct-form-of Q&apos;</obo:RO_0002423>
         <terms:creator rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
-        <rdfs:label xml:lang="pt-br"></rdfs:label>
-        <rdfs:label>is direct form of</rdfs:label>
+        <rdfs:label xml:lang="en">is direct form of</rdfs:label>
+        <rdfs:label xml:lang="pt-br">é forma direta de</rdfs:label>
         <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/ro/docs/direct-and-indirect-relations/"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002422"/>
     </owl:AnnotationProperty>
@@ -265,6 +304,8 @@ Where we have an annotation assertion
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002580">
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:ONTONEO_10000002 xml:lang="pt-br">Fernanda Farinelli</obo:ONTONEO_10000002>
+        <rdfs:label xml:lang="pt-br"></rdfs:label>
         <rdfs:label>logical macro assertion on an axiom</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002416"/>
     </owl:AnnotationProperty>
@@ -276,6 +317,8 @@ Where we have an annotation assertion
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002581">
         <obo:IAO_0000115>If R &lt;- P o Q is a defining property chain axiom, then it also holds that R -&gt; P o Q. Note that this cannot be expressed directly in OWL</obo:IAO_0000115>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:ONTONEO_10000002 xml:lang="pt-br">Fernanda Farinelli</obo:ONTONEO_10000002>
+        <rdfs:label xml:lang="pt-br"></rdfs:label>
         <rdfs:label>is a defining property chain axiom</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002580"/>
     </owl:AnnotationProperty>
@@ -287,6 +330,8 @@ Where we have an annotation assertion
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002582">
         <obo:IAO_0000115>If R &lt;- P o Q is a defining property chain axiom, then (1) R -&gt; P o Q holds and (2) Q is either reflexive or locally reflexive. A corollary of this is that P SubPropertyOf R.</obo:IAO_0000115>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:ONTONEO_10000002 xml:lang="pt-br">Fernanda Farinelli</obo:ONTONEO_10000002>
+        <rdfs:label xml:lang="pt-br"></rdfs:label>
         <rdfs:label>is a defining property chain axiom where second argument is reflexive</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002581"/>
     </owl:AnnotationProperty>
@@ -313,7 +358,9 @@ Where we have an annotation assertion
 
     <!-- http://purl.org/dc/elements/1.1/title -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/description"/>
+    </owl:AnnotationProperty>
     
 
 
@@ -359,21 +406,6 @@ Where we have an annotation assertion
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
     
-
-
-    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#datatype -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#datatype"/>
-    
-
-
-    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
-
-    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
-        <rdfs:label>label</rdfs:label>
-    </rdf:Description>
-    
-
 
     <!-- http://www.w3.org/2002/07/owl#allValuesFrom -->
 
@@ -492,6 +524,17 @@ Where we have an annotation assertion
     
 
 
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <obo:ONTONEO_10000002 xml:lang="pt-br">Fernanda Farinelli</obo:ONTONEO_10000002>
+        <rdfs:label>label</rdfs:label>
+        <rdfs:label xml:lang="pt-br">rótulo</rdfs:label>
+    </rdf:Description>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -580,7 +623,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000112 xml:lang="en">this disease course realizes this disease</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">this investigation realizes this investigator role</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">this shattering realizes this fragility</obo:IAO_0000112>
-        <obo:IAO_0000118 xml:lang="pt">exerce</obo:IAO_0000118>
         <obo:IAO_0000412>http://www.exemplo.com/ontologia/coreRO/1.0.0</obo:IAO_0000412>
         <obo:IAO_0000600 xml:lang="en">to say that b realizes c at t is to assert that there is some material entity d &amp; b is a process which has participant d at t &amp; c is a disposition or role of which d is bearer_of at t&amp; the type instantiated by b is correlated with the type instantiated by c. (axiom label in BFO2 Reference: [059-003])</obo:IAO_0000600>
         <rdfs:comment>Paraphrase of elucidation: a relation between a process and a realizable entity, where there is some material entity that is bearer of the realizable entity and participates in the process, and the realizable entity comes to be realized in the course of the process</rdfs:comment>
@@ -1026,8 +1068,6 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000081">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000112 xml:lang="en">this investigator role is a role of this person</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">A role inheres in its bearer at all times for which the role exists, however the role need not be realized at all the times that the role exists.</obo:IAO_0000116>
@@ -1545,7 +1585,6 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     </owl:ObjectProperty>
     
 
-
     <!-- http://purl.obolibrary.org/obo/RO_0002223 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002223">
@@ -1562,8 +1601,6 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
         <rdfs:label xml:lang="pt">inicia</rdfs:label>
         <rdfs:label xml:lang="en">starts</rdfs:label>
     </owl:ObjectProperty>
-    
-
 
     <!-- http://purl.obolibrary.org/obo/RO_0002224 -->
 
@@ -2041,61 +2078,8 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000027">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000002"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000009"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000000"/>
         <rdfs:label xml:lang="pt">assiste</rdfs:label>
         <rdfs:label xml:lang="en">attends</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000526 -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000526">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000019"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000506"/>
-        <dc:creator>Fernanda Farinelli</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-15T21:55:41Z</dc:date>
-        <rdfs:label xml:lang="pt">ocorre em data</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000540 -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000540">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000550"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000000"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000516"/>
-        <obo:IAO_0000600 xml:lang="pt">Indica o grupo específico de pessoas para o qual o evento acadêmico é principalmente direcionado. Embora todos os membros do público alvo sejam participantes do evento, essa relação destaca aqueles que o evento foi projetado para atender de maneira mais específica.</obo:IAO_0000600>
-        <dc:creator>Fernanda Farinelli</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-04T14:27:42Z</dc:date>
-        <rdfs:label xml:lang="en">has target audience</rdfs:label>
-        <rdfs:label xml:lang="pt">tem público alvo</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000550 -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000550">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000516"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000000"/>
-        <dc:creator>Fernanda Farinelli</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-04T16:57:10Z</dc:date>
-        <rdfs:label xml:lang="pt">público alvo de</rdfs:label>
-        <rdfs:label xml:lang="en">target audience of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -2115,9 +2099,10 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000505">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000506"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#gDay"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <dc:creator>Fernanda Farinelli</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-14T22:33:25Z</dc:date>
+        <rdfs:label xml:lang="en">day</rdfs:label>
         <rdfs:label xml:lang="pt">dia</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -2127,11 +2112,11 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000507">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000506"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#gMonth"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <dc:creator>Fernanda Farinelli</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-14T22:36:27Z</dc:date>
-        <rdfs:label xml:lang="pt">me
-s</rdfs:label>
+        <rdfs:label xml:lang="en">month</rdfs:label>
+        <rdfs:label xml:lang="pt">mês</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2140,10 +2125,11 @@ s</rdfs:label>
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000508">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000506"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <dc:creator>Fernanda Farinelli</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-14T22:36:33Z</dc:date>
         <rdfs:label xml:lang="pt">ano</rdfs:label>
+        <rdfs:label xml:lang="en">year</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2151,99 +2137,24 @@ s</rdfs:label>
     <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000513 -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000513">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000530"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <dc:creator>Fernanda Farinelli</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-15T00:58:16Z</dc:date>
-        <rdfs:label xml:lang="pt">tem data e hora</rdfs:label>
+        <rdfs:label xml:lang="pt">data e hora</rdfs:label>
+        <rdfs:label xml:lang="en">date and hour</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000527 -->
+    <!-- http://www.semanticweb.org/pedro/ONTAE/ONTAE00000033 -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000527">
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000502"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000503"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000504"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000506"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
-        <dc:creator>Fernanda Farinelli</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-15T22:00:40Z</dc:date>
-        <rdfs:label xml:lang="en">has date</rdfs:label>
-        <rdfs:label xml:lang="pt">tem data</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000528 -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000528">
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000509"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000510"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000511"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000512"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
-        <dc:creator>Fernanda Farinelli</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-15T22:15:20Z</dc:date>
-        <rdfs:label xml:lang="en">has time</rdfs:label>
-        <rdfs:label xml:lang="pt">tem hora</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000531 -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000531">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pedro/ONTAE/ONTAE00000033">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000028"/>
-        <rdfs:range>
-            <rdfs:Datatype>
-                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-                <owl:withRestrictions rdf:parseType="Collection">
-                    <rdf:Description>
-                        <xsd:maxLength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</xsd:maxLength>
-                    </rdf:Description>
-                </owl:withRestrictions>
-            </rdfs:Datatype>
-        </rdfs:range>
-        <dc:creator>Fernanda Farinelli</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-16T21:50:55Z</dc:date>
-        <rdfs:label xml:lang="en">has title</rdfs:label>
-        <rdfs:label xml:lang="pt">tem Título</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000532 -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000532">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000501"/>
-        <rdfs:range>
-            <rdfs:Datatype>
-                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-                <owl:withRestrictions rdf:parseType="Collection">
-                    <rdf:Description>
-                        <xsd:maxLength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</xsd:maxLength>
-                    </rdf:Description>
-                </owl:withRestrictions>
-            </rdfs:Datatype>
-        </rdfs:range>
-        <dc:creator>Fernanda Farinelli</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-16T22:05:54Z</dc:date>
-        <rdfs:label xml:lang="en">has description</rdfs:label>
-        <rdfs:label xml:lang="pt">tem Descricao</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <dc:creator>J. Pedro Nunes</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-16T17:04:25Z</dc:date>
+        <rdfs:label xml:lang="en">title of academic activity</rdfs:label>
+        <rdfs:label xml:lang="pt">título da atividade acadêmica</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2473,6 +2384,12 @@ s</rdfs:label>
         <owl:annotatedTarget xml:lang="en">Temporal region doesn&apos;t have a closure axiom because the subclasses don&apos;t exhaust all possibilites. An example would be the mereological sum of a temporal instant and a temporal interval that doesn&apos;t overlap the instant. In this case the resultant temporal region is neither 0-dimensional nor 1-dimensional</owl:annotatedTarget>
         <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/0000003"/>
         <rdfs:comment>per discussion with Barry Smith</rdfs:comment>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000600"/>
+        <owl:annotatedTarget xml:lang="en">A temporal region is an occurrent entity that is part of time as defined relative to some reference frame. (axiom label in BFO2 Reference: [100-001])</owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/100-001"/>
     </owl:Axiom>
     
 
@@ -3684,6 +3601,7 @@ F   |  F    F</obo:IAO_0000112>
         <obo:IAO_0000117 xml:lang="en">Person:Chris Stoeckart</obo:IAO_0000117>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/iao/2022-11-07/iao.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">email address</rdfs:label>
+        <rdfs:label xml:lang="pt-br">endereço de email</rdfs:label>
     </owl:Class>
     
 
@@ -3763,17 +3681,8 @@ F   |  F    F</obo:IAO_0000112>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000514"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000000"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000111>Homo sapiens</obo:IAO_0000111>
@@ -4040,11 +3949,10 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000000">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115 xml:lang="en">Process that involves carrying out activities related to teaching, research, or outreach in the academic context.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="pt-br">Processo que envolve a execução de tarefas e responsabilidades relacionadas ao ensino, pesquisa ou extensão no contexto acadêmico.</obo:IAO_0000115>
         <dc:creator>João Pedro Sousa Nunes</dc:creator>
-        <dc:creator>Fernanda</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-12T19:14:40Z</dc:date>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-05T20:31:05Z</dc:date>
         <rdfs:label xml:lang="en">academic activity</rdfs:label>
         <rdfs:label xml:lang="pt">atividade acadêmica</rdfs:label>
     </owl:Class>
@@ -4055,33 +3963,8 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000001">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000514"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000514"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                                        <owl:onClass rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000000"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="pt-br">Papel exercido por uma pessoa que leciona em instituições de ensino superior.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Role performed by a person who teaches in higher education institutions.</obo:IAO_0000115>
         <rdfs:label xml:lang="pt">docente</rdfs:label>
         <rdfs:label xml:lang="en">professor</rdfs:label>
     </owl:Class>
@@ -4092,33 +3975,8 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000002">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000514"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000514"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                                        <owl:onClass rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000000"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="pt-br">Papel exercido por uma pessoa regularmente vinculada à uma instituição de ensino superior.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Role performed by a person who is regularly affiliated with a higher education institution.</obo:IAO_0000115>
         <rdfs:label xml:lang="pt">discente</rdfs:label>
         <rdfs:label xml:lang="en">student</rdfs:label>
     </owl:Class>
@@ -4158,6 +4016,7 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="pt-br">Papel exercido por uma pessoa que atua em função pública, prestando serviços ao governo e à sociedade.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Role performed by a person who works in public service, providing services to the government and to society.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">federal employee</rdfs:label>
         <rdfs:label xml:lang="pt">servidor público</rdfs:label>
     </owl:Class>
@@ -4169,35 +4028,20 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
     <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000006">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000514"/>
         <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000514"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                                        <owl:someValuesFrom>
-                                            <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000025"/>
-                                                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                                                <owl:onClass rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000019"/>
-                                            </owl:Restriction>
-                                        </owl:someValuesFrom>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000025"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000019"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="pt-br">Papel exercido por uma pessoa que ministra em palestras.</obo:IAO_0000115>
-        <obo:IAO_0000118 xml:lang="pt">conferencista</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="en">keynote speaker</obo:IAO_0000118>
+        <obo:IAO_0000115 xml:lang="en">Role performed by a person who gives lectures.</obo:IAO_0000115>
         <rdfs:label xml:lang="pt">palestrante</rdfs:label>
         <rdfs:label xml:lang="en">speaker</rdfs:label>
     </owl:Class>
@@ -4209,32 +4053,14 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
     <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000008">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000514"/>
         <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000514"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000025"/>
-                                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                                        <owl:onClass rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000021"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000025"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000021"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="pt-br">Papel exercido por uma pessoa que ministras cursos.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Role performed by a person who teaches courses.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">instructor</rdfs:label>
         <rdfs:label xml:lang="pt">instrutor</rdfs:label>
     </owl:Class>
@@ -4246,33 +4072,20 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
     <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000009">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000514"/>
         <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000514"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                                        <owl:someValuesFrom>
-                                            <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000027"/>
-                                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000019"/>
-                                            </owl:Restriction>
-                                        </owl:someValuesFrom>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000027"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000000"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="pt-br">Papel exercido por uma pessoa que assiste a uma atividade acadêmica.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">attendee</rdfs:label>
+        <obo:IAO_0000115 xml:lang="pt-br">Role performed by a person who attends an academic activity.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">participant</rdfs:label>
         <rdfs:label xml:lang="pt">participante</rdfs:label>
     </owl:Class>
     
@@ -4283,6 +4096,7 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
     <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000010">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000514"/>
         <obo:IAO_0000115 xml:lang="pt-br">Papel exercido por uma pessoa responsável pela organização de uma atividade acadêmica.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Role performed by a person responsible for organizing an academic activity.</obo:IAO_0000115>
         <rdfs:label xml:lang="pt">coordenador</rdfs:label>
         <rdfs:label xml:lang="en">coordinator</rdfs:label>
     </owl:Class>
@@ -4297,17 +4111,17 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001015"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
-                <owl:onClass>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000018"/>
-                            <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000021"/>
-                            <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000024"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:onClass>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001015"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000021"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Academic space equipped with specific infrastructure for small-scale theoretical and expository activities.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="pt-br">É um espaço acadêmico equipado com infraestrutura específica para a realização de experimentos e atividades práticas.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">laboratory</rdfs:label>
         <rdfs:label xml:lang="pt">laboratório</rdfs:label>
@@ -4341,6 +4155,7 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
                 <owl:onClass rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000021"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">It is an academic space equipped with specific infrastructure for carrying out large-scale theoretical and expository activities.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="pt-br">É um espaço acadêmico equipado com infraestrutura específica para a realização de atividades teóricas e expositivas de grande porte.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">auditorium</rdfs:label>
         <rdfs:label xml:lang="pt">auditório</rdfs:label>
@@ -4351,13 +4166,6 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
     <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000014 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000014">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000551"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000030"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -4373,6 +4181,7 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
                 <owl:onClass rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000021"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="pt-br">It is an academic space equipped with specific infrastructure for carrying out small-scale theoretical and expository activities.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="pt-br">É um espaço acadêmico equipado com infraestrutura específica para a realização de atividades teóricas e expositivas de pequeno porte.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">classroom</rdfs:label>
         <rdfs:label xml:lang="pt">sala de aula</rdfs:label>
@@ -4395,116 +4204,18 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
     <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000016">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000015"/>
         <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000015"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:unionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000018"/>
-                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000019"/>
-                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000020"/>
-                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000024"/>
-                                </owl:unionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000030"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                                        <owl:someValuesFrom>
-                                            <owl:Class>
-                                                <owl:intersectionOf rdf:parseType="Collection">
-                                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000006"/>
-                                                    <owl:Restriction>
-                                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000025"/>
-                                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000019"/>
-                                                    </owl:Restriction>
-                                                </owl:intersectionOf>
-                                            </owl:Class>
-                                        </owl:someValuesFrom>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                                        <owl:someValuesFrom>
-                                            <owl:Class>
-                                                <owl:intersectionOf rdf:parseType="Collection">
-                                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000009"/>
-                                                    <owl:Restriction>
-                                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000027"/>
-                                                        <owl:someValuesFrom>
-                                                            <owl:Class>
-                                                                <owl:unionOf rdf:parseType="Collection">
-                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000018"/>
-                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000019"/>
-                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000020"/>
-                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000024"/>
-                                                                </owl:unionOf>
-                                                            </owl:Class>
-                                                        </owl:someValuesFrom>
-                                                    </owl:Restriction>
-                                                </owl:intersectionOf>
-                                            </owl:Class>
-                                        </owl:someValuesFrom>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000540"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000516"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000235"/>
-                        <owl:allValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000028"/>
-                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000501"/>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:allValuesFrom>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002223"/>
-                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000503"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002229"/>
-                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000504"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000235"/>
-                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                        <owl:onClass rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000515"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000019"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000600 xml:lang="pt">Evento com múltiplas apresentações e palestras e que são multidisciplinares.</obo:IAO_0000600>
-        <rdfs:label xml:lang="en">conference</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000020"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">congress</rdfs:label>
         <rdfs:label xml:lang="pt">congresso</rdfs:label>
     </owl:Class>
     
@@ -4515,118 +4226,16 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
     <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000017">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000015"/>
         <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000015"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:unionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000018"/>
-                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000019"/>
-                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000020"/>
-                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000024"/>
-                                </owl:unionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000030"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                                        <owl:someValuesFrom>
-                                            <owl:Class>
-                                                <owl:intersectionOf rdf:parseType="Collection">
-                                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000006"/>
-                                                    <owl:Restriction>
-                                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000025"/>
-                                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000019"/>
-                                                    </owl:Restriction>
-                                                </owl:intersectionOf>
-                                            </owl:Class>
-                                        </owl:someValuesFrom>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                                        <owl:someValuesFrom>
-                                            <owl:Class>
-                                                <owl:intersectionOf rdf:parseType="Collection">
-                                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000009"/>
-                                                    <owl:Restriction>
-                                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000027"/>
-                                                        <owl:someValuesFrom>
-                                                            <owl:Class>
-                                                                <owl:unionOf rdf:parseType="Collection">
-                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000018"/>
-                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000019"/>
-                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000020"/>
-                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000024"/>
-                                                                </owl:unionOf>
-                                                            </owl:Class>
-                                                        </owl:someValuesFrom>
-                                                    </owl:Restriction>
-                                                </owl:intersectionOf>
-                                            </owl:Class>
-                                        </owl:someValuesFrom>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000540"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000516"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000235"/>
-                        <owl:allValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000028"/>
-                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000501"/>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:allValuesFrom>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002223"/>
-                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000503"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002229"/>
-                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000504"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000235"/>
-                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                        <owl:onClass rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000515"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                        <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">50</owl:maxQualifiedCardinality>
-                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000020"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="pt">simpósio</rdfs:label>
         <rdfs:label xml:lang="en">symposium</rdfs:label>
@@ -4639,24 +4248,20 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
     <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000018">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000015"/>
         <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000015"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
-                        <owl:onClass>
-                            <owl:Class>
-                                <owl:unionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000016"/>
-                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000017"/>
-                                </owl:unionOf>
-                            </owl:Class>
-                        </owl:onClass>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000016"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Academic event with focus on practice aproach</obo:IAO_0000115>
         <rdfs:label>workshop</rdfs:label>
     </owl:Class>
     
@@ -4671,33 +4276,19 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000015"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000009"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                    <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
-                        <owl:allValuesFrom>
+                        <owl:someValuesFrom>
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000502"/>
                                     <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000510"/>
                                 </owl:intersectionOf>
                             </owl:Class>
-                        </owl:allValuesFrom>
+                        </owl:someValuesFrom>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000235"/>
-                        <owl:allValuesFrom>
+                        <owl:someValuesFrom>
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000028"/>
@@ -4705,7 +4296,21 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
                                     <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000515"/>
                                 </owl:intersectionOf>
                             </owl:Class>
-                        </owl:allValuesFrom>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000009"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
@@ -4752,78 +4357,18 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
     <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000020">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000015"/>
         <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000015"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000009"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
-                        <owl:allValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000502"/>
-                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000510"/>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:allValuesFrom>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000235"/>
-                        <owl:allValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000028"/>
-                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000501"/>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:allValuesFrom>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000030"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                        <owl:onClass>
-                            <owl:Class>
-                                <owl:unionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000016"/>
-                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000017"/>
-                                </owl:unionOf>
-                            </owl:Class>
-                        </owl:onClass>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000026"/>
-                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                        <owl:onClass>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000039"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:onClass>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000017"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="pt">comunicação oral</rdfs:label>
         <rdfs:label xml:lang="en">oral communication</rdfs:label>
@@ -4836,51 +4381,27 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
     <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000021">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000000"/>
         <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000009"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:unionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000012"/>
-                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000013"/>
-                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000014"/>
-                                </owl:unionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000026"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000008"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000012"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000013"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000014"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000026"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Academic activity designed to provide specific knowledge and skills through a structured teaching program focused on practical activities.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="pt-br">Atividade acadêmica destinada a fornecer conhecimento e habilidades específicas através de um programa estruturado de ensino focado em atividades práticas.</obo:IAO_0000115>
         <dc:creator>João Pedro Sousa Nunes</dc:creator>
         <rdfs:label xml:lang="en">course</rdfs:label>
@@ -4893,9 +4414,16 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000022">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000021"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000235"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000501"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Course intended to provide specific knowledge and skills through a structured teaching program focused on practical activities, with an extended duration.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="pt-br">Curso destinado a fornecer conhecimento e habilidades específicas através de um programa estruturado de ensino focado em atividades práticas, com uma duração estendida.</obo:IAO_0000115>
         <rdfs:label xml:lang="pt">curso de longa duração</rdfs:label>
-        <rdfs:label xml:lang="en">long-term course</rdfs:label>
+        <rdfs:label xml:lang="en">long-duration course</rdfs:label>
     </owl:Class>
     
 
@@ -4918,9 +4446,10 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
                 </owl:onClass>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Course designed to provide specific knowledge and skills through a structured, hands-on learning program of short duration.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="pt-br">Curso destinado a fornecer conhecimento e habilidades específicas através de um programa estruturado de ensino, focado em atividades práticas, com duração curta.</obo:IAO_0000115>
         <rdfs:label xml:lang="pt">minicurso</rdfs:label>
-        <rdfs:label xml:lang="en">short course</rdfs:label>
+        <rdfs:label xml:lang="en">short course (minicourse)</rdfs:label>
     </owl:Class>
     
 
@@ -4933,18 +4462,19 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
-                <owl:onClass>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000016"/>
-                            <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000017"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:onClass>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">hands-on session</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Course with a with focus on practice aproach. May take one or more sessions.</obo:IAO_0000115>
         <rdfs:label xml:lang="pt">oficina</rdfs:label>
+        <rdfs:label xml:lang="en">workshop</rdfs:label>
     </owl:Class>
     
 
@@ -4955,7 +4485,7 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -4966,8 +4496,8 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">title of academic activity</rdfs:label>
-        <rdfs:label xml:lang="pt">título da atividade acadêmica</rdfs:label>
+        <rdfs:label xml:lang="en">title</rdfs:label>
+        <rdfs:label xml:lang="pt-br">título da atividade acadêmica</rdfs:label>
     </owl:Class>
     
 
@@ -4976,6 +4506,7 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+        <rdfs:label xml:lang="en">occurrence period</rdfs:label>
         <rdfs:label xml:lang="pt">período de realização</rdfs:label>
     </owl:Class>
     
@@ -4985,13 +4516,9 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000030">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001015"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000000"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">It is a place that is used for carrying out academic activities.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="pt-br">É um lugar que é utilizado para a realização de atividades acadêmicas.</obo:IAO_0000115>
+        <obo:IAO_0000600 xml:lang="en">“b“ is an academic space: “b“ is a place that is used for carrying out academic activities.</obo:IAO_0000600>
         <obo:IAO_0000600 xml:lang="pt-br">“b“ é um espaço acadêmico: “b“ é lugar que é utilizado para a realização de atividades acadêmicas.</obo:IAO_0000600>
         <dc:creator>J. Pedro Nunes</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-31T13:36:31Z</dc:date>
@@ -5004,18 +4531,12 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
     <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000031 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000031">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000529"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000542"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000012"/>
+        <obo:IAO_0000115 xml:lang="en">Laboratory equipped with specific infrastructure for experiments and practical activities related to computing.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="pt-br">É um laboratório equipado com estações de trabalho de hardwares e softwares para a realização de experimentos e atividades práticas relacionadas à informática.</obo:IAO_0000115>
         <dc:creator>J. Pedro Nunes</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-31T13:37:36Z</dc:date>
+        <rdfs:label xml:lang="en">computer laboratory</rdfs:label>
         <rdfs:label xml:lang="pt">laboratório de informática</rdfs:label>
     </owl:Class>
     
@@ -5025,52 +4546,10 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000032">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
-        <obo:IAO_0000600 xml:lang="pt">Refere-se à quantidade de tempo alocada para uma atividade acadêmica, como um curso, disciplina, ou atividade específica.
-A carga horária representa uma quantidade específica de tempo designada para um evento ou processo (como uma aula ou curso).</obo:IAO_0000600>
         <dc:creator>J. Pedro Nunes</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-31T13:38:16Z</dc:date>
         <rdfs:label xml:lang="pt">carga horária</rdfs:label>
-        <rdfs:label xml:lang="en">workload</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000039 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000039">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000514"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000514"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                                        <owl:someValuesFrom>
-                                            <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000025"/>
-                                                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                                                <owl:onClass rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000020"/>
-                                            </owl:Restriction>
-                                        </owl:someValuesFrom>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="pt">Um papel assumido por uma pessoa que apresenta um trabalho ou comunicação oral no congresso ou simpósio.</obo:IAO_0000115>
-        <dc:creator>J. Pedro Nunes</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-04T13:15:58Z</dc:date>
-        <rdfs:label xml:lang="pt">apresentador</rdfs:label>
-        <rdfs:label xml:lang="en">presenter</rdfs:label>
+        <rdfs:label xml:lang="en">workload (in hours)</rdfs:label>
     </owl:Class>
     
 
@@ -5079,22 +4558,9 @@ A carga horária representa uma quantidade específica de tempo designada para u
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000501">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000015"/>
-                            <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000021"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <dc:creator>Fernanda Farinelli</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-14T22:13:49Z</dc:date>
-        <rdfs:label xml:lang="en">description of academic activity</rdfs:label>
+        <rdfs:label xml:lang="en">description of the academic activity</rdfs:label>
         <rdfs:label xml:lang="pt">descrição da atividade acadêmica</rdfs:label>
     </owl:Class>
     
@@ -5104,11 +4570,10 @@ A carga horária representa uma quantidade específica de tempo designada para u
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000502">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000506"/>
-        <obo:IAO_0000115 xml:lang="pt">Data em que uma atividade acadêmica é agendada.</obo:IAO_0000115>
         <dc:creator>Fernanda Farinelli</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-14T22:27:30Z</dc:date>
         <rdfs:label xml:lang="pt">data da atividade acadêmica</rdfs:label>
-        <rdfs:label xml:lang="en">date of academic activity</rdfs:label>
+        <rdfs:label xml:lang="en">date of the academic activity</rdfs:label>
     </owl:Class>
     
 
@@ -5116,11 +4581,11 @@ A carga horária representa uma quantidade específica de tempo designada para u
     <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000503 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000503">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000506"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000502"/>
         <dc:creator>Fernanda Farinelli</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-14T22:28:04Z</dc:date>
         <rdfs:label xml:lang="pt">data inicial da atividade acadêmica</rdfs:label>
-        <rdfs:label xml:lang="en">end date of academic activity</rdfs:label>
+        <rdfs:label xml:lang="en">start date of the academic activity</rdfs:label>
     </owl:Class>
     
 
@@ -5128,11 +4593,11 @@ A carga horária representa uma quantidade específica de tempo designada para u
     <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000504 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000504">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000506"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000502"/>
         <dc:creator>Fernanda Farinelli</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-14T22:28:30Z</dc:date>
+        <rdfs:label xml:lang="en">Final date of the academic activity</rdfs:label>
         <rdfs:label xml:lang="pt">data final da atividade acadêmica</rdfs:label>
-        <rdfs:label xml:lang="en">start date of academic activity</rdfs:label>
     </owl:Class>
     
 
@@ -5156,7 +4621,7 @@ A carga horária representa uma quantidade específica de tempo designada para u
         <dc:creator>Fernanda Farinelli</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-14T22:38:01Z</dc:date>
         <rdfs:label xml:lang="pt">hora</rdfs:label>
-        <rdfs:label xml:lang="en">time</rdfs:label>
+        <rdfs:label xml:lang="en">hour</rdfs:label>
     </owl:Class>
     
 
@@ -5167,8 +4632,8 @@ A carga horária representa uma quantidade específica de tempo designada para u
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000509"/>
         <dc:creator>Fernanda Farinelli</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-14T22:38:22Z</dc:date>
-        <rdfs:label xml:lang="en">academic activity time scheduled</rdfs:label>
         <rdfs:label xml:lang="pt">horário da atividade acadêmica</rdfs:label>
+        <rdfs:label xml:lang="en">time of the academic activity</rdfs:label>
     </owl:Class>
     
 
@@ -5176,11 +4641,11 @@ A carga horária representa uma quantidade específica de tempo designada para u
     <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000511 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000511">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000509"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000510"/>
         <dc:creator>Fernanda Farinelli</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-14T22:38:55Z</dc:date>
-        <rdfs:label xml:lang="en">academic activity start time</rdfs:label>
         <rdfs:label xml:lang="pt">horário de inicio da atividade acadêmica</rdfs:label>
+        <rdfs:label xml:lang="en">start time of the academic activity</rdfs:label>
     </owl:Class>
     
 
@@ -5188,10 +4653,10 @@ A carga horária representa uma quantidade específica de tempo designada para u
     <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000512 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000512">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000509"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000510"/>
         <dc:creator>Fernanda Farinelli</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-14T22:39:14Z</dc:date>
-        <rdfs:label xml:lang="en">academic activity end time</rdfs:label>
+        <rdfs:label xml:lang="en">end time of the academic activity</rdfs:label>
         <rdfs:label xml:lang="pt">horário de fim da atividade acadêmica</rdfs:label>
     </owl:Class>
     
@@ -5202,25 +4667,16 @@ A carga horária representa uma quantidade específica de tempo designada para u
     <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000514">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000023"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000000"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
         <dc:creator>Fernanda Farinelli</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-15T01:31:52Z</dc:date>
@@ -5233,7 +4689,7 @@ A carga horária representa uma quantidade específica de tempo designada para u
     <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000515 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000515">
-        <owl:equivalentClass>
+            <owl:equivalentClass>
             <owl:Class>
                 <owl:oneOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000533"/>
@@ -5243,7 +4699,7 @@ A carga horária representa uma quantidade específica de tempo designada para u
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
-        <dc:creator>Fernanda Farinelli</dc:creator>
+        <dc:creator>Fernanda</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-15T02:24:50Z</dc:date>
         <rdfs:label xml:lang="en">field of knowledge</rdfs:label>
         <rdfs:label xml:lang="pt">área de conhecimento</rdfs:label>
@@ -5254,19 +4710,8 @@ A carga horária representa uma quantidade específica de tempo designada para u
     <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000516 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000516">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000544"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000545"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000546"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000547"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
-        <obo:IAO_0000600 xml:lang="pt">Refere-se a um grupo de pessoas para as quais o conteúdo, os objetivos e os resultados da atividade são especialmente relevantes, sendo projetados para atender suas necessidades e interesses específicos.</obo:IAO_0000600>
-        <dc:creator>Fernanda Farinelli</dc:creator>
+        <dc:creator>Fernanda</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-15T02:30:47Z</dc:date>
         <rdfs:label xml:lang="pt">público alvo</rdfs:label>
         <rdfs:label xml:lang="en">target audience</rdfs:label>
@@ -5277,11 +4722,11 @@ A carga horária representa uma quantidade específica de tempo designada para u
     <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000517 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000517">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
-        <dc:creator>Fernanda Farinelli</dc:creator>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
+        <dc:creator>Fernanda</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-15T02:31:18Z</dc:date>
-        <rdfs:label xml:lang="pt">ementa da atividade acadêmcia</rdfs:label>
-        <rdfs:label xml:lang="en">syllabus of academic activity</rdfs:label>
+        <rdfs:label xml:lang="pt">ementa</rdfs:label>
+        <rdfs:label xml:lang="en">syllabus</rdfs:label>
     </owl:Class>
     
 
@@ -5289,12 +4734,11 @@ A carga horária representa uma quantidade específica de tempo designada para u
     <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000518 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000518">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
-        <obo:IAO_0000118 xml:lang="pt">programa do curso</obo:IAO_0000118>
-        <dc:creator>Fernanda Farinelli</dc:creator>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <dc:creator>Fernanda</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-15T02:32:12Z</dc:date>
-        <rdfs:label xml:lang="pt">conteúdo programático</rdfs:label>
-        <rdfs:label xml:lang="en">syllabus content</rdfs:label>
+        <rdfs:label xml:lang="en">course program</rdfs:label>
+        <rdfs:label xml:lang="pt">programa do curso</rdfs:label>
     </owl:Class>
     
 
@@ -5302,94 +4746,11 @@ A carga horária representa uma quantidade específica de tempo designada para u
     <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000519 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000519">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000520"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000548"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000549"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000024"/>
-        <obo:IAO_0000600 xml:lang="pt">Refere-se a uma entidade institucional, como um departamento, faculdade ou outra subdivisão de uma universidade.
-Mais especificamente, &quot;unidade acadêmica&quot; pode ser vista como uma Fiat Object Part (parte de objeto definida por convenção), pois representa uma subdivisão de uma entidade maior (a universidade), cuja delimitação é baseada em uma convenção social e administrativa.</obo:IAO_0000600>
-        <dc:creator>Fernanda Farinelli</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-15T02:34:26Z</dc:date>
-        <rdfs:label xml:lang="pt">unidade acadêmica</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000521 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000521">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000012"/>
-        <dc:creator>Fernanda Farinelli</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-15T19:38:30Z</dc:date>
-        <rdfs:label xml:lang="pt">laboratório de química</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000525 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000525">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000012"/>
-        <dc:creator>Fernanda Farinelli</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-15T21:38:41Z</dc:date>
-        <rdfs:label xml:lang="pt">laboratório de áudio visual</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000530 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000530">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
         <dc:creator>Fernanda</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-16T21:48:48Z</dc:date>
-        <rdfs:label xml:lang="pt">data e hora</rdfs:label>
-        <rdfs:label xml:lang="en">datetime</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000537 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000537">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000600 xml:lang="pt">Uma empresa ou instituição X pode desempenhar o papel de Patrocinador (Sponsor) no congresso Y, mas fora desse evento, essa entidade pode não ser considerada patrocinadora.
-Descreve uma função temporária desempenhada por uma entidade (como uma empresa ou organização) dentro do contexto do evento.</obo:IAO_0000600>
-        <dc:creator>Fernanda Farinelli</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-04T13:50:43Z</dc:date>
-        <rdfs:label xml:lang="pt">patrocinador</rdfs:label>
-        <rdfs:label xml:lang="en">sponsor</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000538 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000538">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000600 xml:lang="pt">Instituição acadêmica ou científica que apoia a realização do evento.</obo:IAO_0000600>
-        <dc:creator>Fernanda Farinelli</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-04T13:52:03Z</dc:date>
-        <rdfs:label xml:lang="pt">instituição de apoio</rdfs:label>
-        <rdfs:label xml:lang="en">supporting institution</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000539 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000539">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
-        <dc:creator>Fernanda Farinelli</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-04T14:16:58Z</dc:date>
-        <rdfs:label xml:lang="en">objective of academic activity</rdfs:label>
-        <rdfs:label xml:lang="pt">objetivo da atividade acadêmica</rdfs:label>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-15T02:34:26Z</dc:date>
+        <rdfs:label xml:lang="en">academic unit</rdfs:label>
+        <rdfs:label xml:lang="pt">unidade acadêmica</rdfs:label>
     </owl:Class>
     
 
@@ -5409,226 +4770,14 @@ Descreve uma função temporária desempenhada por uma entidade (como uma empres
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000520">
         <rdf:type rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000519"/>
-        <dc:creator>Fernanda Farinelli</dc:creator>
+        <dc:creator>Fernanda</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-15T02:37:38Z</dc:date>
         <rdfs:label xml:lang="pt">Faculdade de Ciência da Informação</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000522 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000522">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000019"/>
-        <obo:BFO_0000066 rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000523"/>
-        <obo:BFO_0000066 rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000524"/>
-        <obo:RO_0001025 rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000536"/>
-        <dc:creator>Fernanda Farinelli</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-15T19:50:49Z</dc:date>
-        <rdfs:label xml:lang="pt">Palestrinha</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000523 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000523">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000502"/>
-        <dc:creator>Fernanda Farinelli</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-15T19:53:13Z</dc:date>
-        <rdfs:label xml:lang="pt">20/08/2024</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000524 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000524">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000510"/>
-        <dc:creator>Fernanda Farinelli</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-15T19:54:00Z</dc:date>
-        <rdfs:label xml:lang="pt">14:00</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000529 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000529">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000031"/>
-        <dc:creator>Fernanda Farinelli</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-16T18:46:52Z</dc:date>
-        <rdfs:label xml:lang="en">LICI1 - FCI</rdfs:label>
-        <rdfs:label xml:lang="pt">LICI1 - FCI</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000533 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000533">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000515"/>
-        <dc:creator>Fernanda Farinelli</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-16T22:16:14Z</dc:date>
-        <rdfs:label xml:lang="en">Agricultural Sciences</rdfs:label>
-        <rdfs:label xml:lang="pt">Ciências Agrárias</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000534 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000534">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000515"/>
-        <dc:creator>Fernanda Farinelli</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-16T22:16:14Z</dc:date>
-        <rdfs:label xml:lang="en">Biological Sciences</rdfs:label>
-        <rdfs:label xml:lang="pt">Ciências Biológicas</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000535 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000535">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000515"/>
-        <dc:creator>Fernanda Farinelli</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-16T22:16:14Z</dc:date>
-        <rdfs:label xml:lang="pt">Ciências da Saúde</rdfs:label>
-        <rdfs:label xml:lang="en">Health Sciences</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000536 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000536">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000013"/>
-        <dc:creator>Fernanda Farinelli</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-03T20:03:00Z</dc:date>
-        <rdfs:label xml:lang="pt">Auditório da FCI</rdfs:label>
-        <rdfs:label xml:lang="en">FCI Auditorium</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000541 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000541">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000012"/>
-        <dc:creator>Fernanda Farinelli</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-04T14:45:48Z</dc:date>
-        <rdfs:label xml:lang="en">LOTI - FCI</rdfs:label>
-        <rdfs:label xml:lang="pt">LOTI - FCI</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000542 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000542">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000031"/>
-        <dc:creator>Fernanda Farinelli</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-04T14:45:32Z</dc:date>
-        <rdfs:label xml:lang="en">LICI2 - FCI</rdfs:label>
-        <rdfs:label xml:lang="pt">LICI2 - FCI</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000543 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000543">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000013"/>
-        <dc:creator>Fernanda Farinelli</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-04T14:45:48Z</dc:date>
-        <rdfs:label xml:lang="pt">Auditório da BCE</rdfs:label>
-        <rdfs:label xml:lang="en">BCE Auditorium</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000544 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000544">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000516"/>
-        <dc:creator>Fernanda Farinelli</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-04T14:46:12Z</dc:date>
-        <rdfs:label xml:lang="en">professionals</rdfs:label>
-        <rdfs:label xml:lang="pt">profissionais</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000545 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000545">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000516"/>
-        <dc:creator>Fernanda Farinelli</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-04T14:47:15Z</dc:date>
-        <rdfs:label xml:lang="pt">pesquisadores</rdfs:label>
-        <rdfs:label xml:lang="en">researchers</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000546 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000546">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000516"/>
-        <dc:creator>Fernanda Farinelli</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-04T14:47:36Z</dc:date>
-        <rdfs:label xml:lang="pt">discentes</rdfs:label>
-        <rdfs:label xml:lang="en">students</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000547 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000547">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000516"/>
-        <dc:creator>Fernanda Farinelli</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-04T15:11:10Z</dc:date>
-        <rdfs:label xml:lang="pt">docentes</rdfs:label>
-        <rdfs:label xml:lang="en">professors</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000548 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000548">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000519"/>
-        <dc:creator>Fernanda Farinelli</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-04T15:20:36Z</dc:date>
-        <rdfs:label xml:lang="pt">Faculdade de Tecnologia</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000549 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000549">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000519"/>
-        <dc:creator>Fernanda Farinelli</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-04T15:21:47Z</dc:date>
-        <rdfs:label xml:lang="pt">Instituto de Letras</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000551 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000551">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ontologias/ONTAE/ONTAE_00000014"/>
-        <dc:creator>Fernanda Farinelli</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-05T02:14:41Z</dc:date>
-        <rdfs:label xml:lang="pt">Sala 214 FCI</rdfs:label>
+        <rdfs:label xml:lang="en">Faculty of Information Science</rdfs:label>
     </owl:NamedIndividual>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
 
